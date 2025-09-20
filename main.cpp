@@ -2,15 +2,14 @@
 #include <string>
 #include <thread>
 #include <chrono>
-#include <cmath>    // для sqrt и pow
-#include <iomanip>  // для setprecision
+#include <cmath>    
+#include <iomanip>  
 using namespace std;
 
 int main() {
     float num1, num2, res;
     char math;
-
-    // Автор
+    
     string author = "Made by Dominiik";
     for (char c : author) {
         cout << c << flush;
@@ -18,7 +17,7 @@ int main() {
     }
     cout << endl;
 
-    // Баннер
+    
     string banner[] = {
         "|--------------|",
         "|    HELLO     |",
@@ -39,7 +38,7 @@ int main() {
     string thinking = "thinking 1..2..3";
 
     while (true) {
-        // Меню (по буквам)
+        
         string menu =
             "\n--- CALCULATOR MENU ---\n"
             "[+] Addition\n"
@@ -129,14 +128,14 @@ int main() {
             }
         }
 
-        // Thinking анимация
+        
         for (char c : thinking) {
             cout << c << flush;
             this_thread::sleep_for(chrono::milliseconds(100));
         }
         cout << endl;
 
-        // Вывод результата по буквам
+        
         string result = "Result: " + to_string(res);
         for (char c : result) {
             cout << c << flush;
