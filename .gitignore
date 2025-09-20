@@ -1,4 +1,4 @@
-# Binary files
+# Compiled binary files
 *.exe
 *.out
 *.o
@@ -6,3 +6,14 @@
 # Temporary files
 *.tmp
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project files (if use VS, CLion и т.д.)
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj*
