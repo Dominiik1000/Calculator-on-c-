@@ -1,34 +1,70 @@
-🧮 Calculator by Dominiik
+# 🧮 Calculator by Dominiik
 
-Welcome to my console calculator project written in C++.
-This calculator works directly in the terminal and has a typewriter animation effect (all text is printed letter by letter).
+Welcome to my **C++ console calculator** with **typewriter animation** ✨
+All text is printed **letter by letter**.
 
-📌 Features
+---
 
-Addition (+)
+## 📌 Features
+- ➕ Addition
+- ➖ Subtraction
+- ✖ Multiplication
+- ➗ Division (with zero check)
+- 🔺 Power
+- √ Square root (no negative numbers)
+- ❌ Quit
 
-Subtraction (-)
+---
 
-Multiplication (*)
+## 🎨 Special
+- All text prints **letter by letter** 🖋️
+- ASCII banner at start 🖼️
+- "thinking 1..2..3" animation ⏳
+- Errors print letter by letter ⚠️
 
-Division (/) with zero division protection
+---
 
-Power (^)
+## ▶ How to run
+1. Compile:
+   g++ calculator.cpp -o calculator
+2. Run:
+   ./calculator
 
-Square root (r) with negative number check
+---
 
-Quit (q)
+## 📝 Example
+|--------------|
+|    HELLO     |
+|   WELCOME    |
+|      TO      |
+|  CALCULATOR  |
+|--------------|
 
-🎨 Special
+--- CALCULATOR MENU ---
+[+] Addition
+[-] Subtraction
+[*] Multiplication
+[/] Division
+[^] Power
+[r] Square root
+[q] Quit
+Choose operation: +
+Enter first number: 5
+Enter second number: 3
+thinking 1..2..3
+Result: 8.000000
 
-All text appears letter by letter with delays.
+---
 
-ASCII banner on startup.
+## ⚠ Errors
+- Division by zero → "Error: Division by zero!" ❌
+- Square root of negative number → "Error: Cannot take sqrt of a negative number!" ⚠️
+- Unknown operation → "Unknown operation!" ❌
 
-"thinking 1..2..3" animation before showing results.
+---
 
-Error messages also appear letter by letter.
+## 👨‍💻 Author
+Made by **Dominiik** 13 yo
 
-▶ How to run
 
-Compile the program:
+Thanks guys for the watch my project ❤
